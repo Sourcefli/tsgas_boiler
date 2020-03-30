@@ -1,8 +1,11 @@
-//Test 123
+// once an appt is dispo'd, we need to...
+// add an ApptId value to its record
+// get the FirebaseID
+// 
 
-const testing = () => {
+const addApptIdUponDisposition = (e) => {
 
-    let sht = sheet('IncomingData')
+    let sht = SHT.name('IncomingData')
 
     let headers = sht.getRange('A1:N1').getValues()[0]
 

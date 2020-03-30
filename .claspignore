@@ -1,3 +1,4 @@
 **/node_modules/**
 **/src/**
 delete_built.js
+notes.ts
