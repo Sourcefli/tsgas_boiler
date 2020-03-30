@@ -14,8 +14,9 @@ namespace ScriptProps {
         getPropertyStore().setProperty(name, value);
     }
 
-    export function delete (propertyName: string) {
+    export function remove(propertyName: string) {
         getPropertyStore().deleteProperty(propertyName);
+        return `Removed ${propertyName} from script properties`
     }
 
     const ONE_SECOND: number = 1000;
