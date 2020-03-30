@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node delete_built.js && tsc --pretty",
-    "deploy": "node delete_built.js && tsc --pretty && clasp push",
-    "watch": "node delete_built.js && tsc --pretty && clasp push --watch"
+    "build": "node rebuildRootDir.js && tsc --pretty",
+    "deploy": "node rebuildRootDir.js && tsc --pretty && clasp push",
+    "watch": "node rebuildRootDir.js && tsc --pretty && clasp push --watch"
   },
   "keywords": [],
   "author": "",
