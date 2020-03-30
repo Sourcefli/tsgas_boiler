@@ -1,8 +1,0 @@
-{
-    "copyFiles": [
-        {
-            "from": "appsscript.json",
-            "to": "built/appsscript.json"
-        }
-    ]
-}
