@@ -9,8 +9,6 @@ var addApptIdUponDisposition = function (e) {
     Logger.log(headers);
     Logger.log(allData);
 };
-
-
 // Other compiler options
 // {
 //     "compilerOptions": {
