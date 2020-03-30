@@ -1,6 +1,43 @@
 {
   "timeZone": "America/New_York",
   "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "BetterLog",
+        "libraryId": "1DSyxam1ceq72bMHsE6aOVeOl94X78WCwiYPytKi7chlg4x5GqiNXSw0l",
+        "version": "27"
+      },
+      {
+        "userSymbol": "ObjDB",
+        "libraryId": "1o_O_ZkZm1GuTF5J1LYkfntUpiaT0sxDHyhZXL4fQma89mNIB65epbL6H",
+        "version": "22"
+      },
+      {
+        "userSymbol": "JsonPath",
+        "libraryId": "1BtmcVnmTKAxqdiHN9Q5cM6M6E5MUMzVtQjSfav-OIQxNIoACkDdlst53",
+        "version": "11"
+      },
+      {
+        "userSymbol": "Tamotsu",
+        "libraryId": "1OiJIgWlrg_DFHFYX_SoaEzhFJPCmwbbfEHEqYEfLEEhKRloTNVJ-3U4s",
+        "version": "27"
+      },
+      {
+        "userSymbol": "ArrayLib",
+        "libraryId": "1r9wNWbta3ebuYL4ENAdIp4UYKmyNiWf1AqsXYzfXduRHhTZEeTxS9MhZ",
+        "version": "23"
+      },
+      {
+        "userSymbol": "ObjApp",
+        "libraryId": "MTeYmpfWgqPbiBkVHnpgnM9kh30YExdAc",
+        "version": "5"
+      },
+      {
+        "userSymbol": "LodashGS",
+        "libraryId": "1SQ0PlSMwndIuOAgtVJdjxsuXueECtY9OGejVDS37ckSVbMll73EXf2PW",
+        "version": "5"
+      }
+    ]
   },
   "exceptionLogging": "STACKDRIVER",
   "runtimeVersion": "V8"
