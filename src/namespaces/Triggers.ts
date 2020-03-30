@@ -1,6 +1,6 @@
 namespace Triggers {
-    export const deleteTrigger = (fnName) => {
-        if (!fnName || !id) {
+    export const deleteTrigger = (fnName: string) => {
+        if (!fnName) {
             throw new Error('A function name must be provided to delete a trigger!!')
         }
         ScriptApp.getProjectTriggers().forEach((trigger) => {
@@ -28,3 +28,4 @@ namespace Triggers {
             }
         });
     }
+}

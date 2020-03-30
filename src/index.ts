@@ -5,7 +5,7 @@
 
 const addApptIdUponDisposition = (e) => {
 
-    let sht = SHT.name('IncomingData')
+    let sht = Sht.name('IncomingData')
 
     let headers = sht.getRange('A1:N1').getValues()[0]
 
@@ -13,6 +13,11 @@ const addApptIdUponDisposition = (e) => {
 
     Logger.log(headers)
     Logger.log(allData)
+}
+
+const doGet = () => {
+    let json = WebApp.allData()
+    return json
 }
 
 // Other compiler options

@@ -17,7 +17,7 @@ namespace Sht {
     * {param} integer index of the desired Sheet
     * {return} SpreadsheetApp
     */
-    const idx = (sheetIndex: number) => {
+    export const idx = (sheetIndex: number) => {
         let sheet = SpreadsheetApp.getActiveSpreadsheet().getSheets()[sheetIndex]
         return sheet
     }

@@ -1,12 +1,18 @@
 namespace WebApp {
-    const doGet = (request) => {
+
+    export const allData = () => {
         const title = 'Sourcefli Web Services';
-        const sht = Sht.idx(0)
-        const allData = sht.getDataRegion().getValues()
+        //@ts-ignore
+        const sht = Sht.name('IncomingData')
+        const allData = sht.getDataRange().getValues()
         let data = {
             data: allData
         };
-        return ContentService.createTextOutput(JSON.stringify(result))
+        return ContentService.createTextOutput(JSON.stringify(data))
             .setMimeType(ContentService.MimeType.JSON);
     };
+
+    // const test_changeEvent = () => {
+
+    // }
 }
